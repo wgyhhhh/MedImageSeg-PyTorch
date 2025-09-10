@@ -5,7 +5,8 @@
 
 This repository contains code for a image segmentation model base on [Sequential vessel segmentation via deep channel attention network](https://www.sciencedirect.com/science/article/pii/S0893608020301672) implemented in PyTorch.
 
-![The framework of SVSnet](https://github.com/wgyhhhh/PyTorch-SVSnet/blob/main/svsnet.jpg)
+<img src="https://github.com/wgyhhhh/PyTorch-SVSnet/blob/main/svsnet.jpg" width="700" />
+
 
 ## Installation
 

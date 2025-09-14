@@ -61,7 +61,8 @@ def main(config):
                               num_workers=config.num_workers)
 
     print('#----------Prepareing Model----------#')
-    device = torch.device("cuda:1")
+    gpu_id = int(setting_config.gpu_id)  
+    device = torch.device(f"cuda:{gpu_id}" if torch.cuda.is_available() else "cpu")
     model = SVSnet()
     model = model.to(device)
 
@@ -151,4 +152,5 @@ def main(config):
 
 if __name__ == '__main__':
     config = setting_config
+
     main(config)

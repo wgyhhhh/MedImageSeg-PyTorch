@@ -1,5 +1,6 @@
 # PyTorch-Medical Image Segmentation
 
+<p align="center"><img src="project.png" width="480"\></p>
 
 **This repository contains the PyTorch implementation of a medical image segmentation model proposed in a research paper. While the implementation may differ slightly from the original architecture described in the paper, the focus here is on capturing and realizing the core ideas presented. I warmly welcome issues and suggestions from the community. If you would like to become a contributor to this project, please feel free to contact me at: wgyhhh001@gmail.com.**
 
